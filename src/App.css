@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.title-button {
+  background: none;
+  border: none;
+  font-size: 2rem; /* Ajuste o tamanho do texto conforme necessário */
+  font-weight: bold; /* Adiciona negrito ao texto */
+  color: inherit; /* Herda a cor do texto do pai */
+  cursor: pointer; /* Muda o cursor para pointer */
+  text-align: center; /* Centraliza o texto */
+  padding: 0; /* Remove o padding padrão */
+  margin: 0; /* Remove a margem padrão */
+  text-decoration: none; /* Remove a decoração do texto */
+}
+
+/* Estilo para a parte principal e de contato */
+.contact-content {
+  padding: 20px; /* Adiciona um pouco de espaçamento */
+  text-align: center; /* Centraliza o texto */
+}
